@@ -2,15 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boruto Uzumaki - Boruto Wiki</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 
 <body>
-    <header>
-        <div class="logo">Boruto Wiki</div>
+    <header id="header">
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Boruto_Uzumaki.png/50px-Boruto_Uzumaki.png"
+                alt="Logo">
+            Boruto Wiki
+        </div>
         <nav>
             <a href="index.html">Home</a>
             <a href="#">Characters</a>
@@ -19,55 +24,50 @@
     </header>
 
     <section class="banner">
-        <img src="https://static.wikia.nocookie.net/naruto/images/6/6f/Boruto_Uzumaki.png" alt="Boruto Uzumaki" />
-        <h1>Boruto Uzumaki</h1>
+        <div class="banner-overlay">
+            <img src="https://static.wikia.nocookie.net/naruto/images/6/6f/Boruto_Uzumaki.png" alt="Boruto Uzumaki">
+            <h1>Boruto Uzumaki</h1>
+        </div>
     </section>
 
     <section class="character-info">
         <h2>Profile</h2>
-        <table>
-            <tr>
-                <th>Full Name</th>
-                <td>Boruto Uzumaki</td>
-            </tr>
-            <tr>
-                <th>Age</th>
-                <td>12–16</td>
-            </tr>
-            <tr>
-                <th>Clan</th>
-                <td>Uzumaki Clan</td>
-            </tr>
-            <tr>
-                <th>Rank</th>
-                <td>Genin</td>
-            </tr>
-            <tr>
-                <th>Team</th>
-                <td>Team Konohamaru</td>
-            </tr>
-        </table>
+        <div class="info-cards">
+            <div class="info-card"><strong>Full Name:</strong> Boruto Uzumaki</div>
+            <div class="info-card"><strong>Age:</strong> 12–16</div>
+            <div class="info-card"><strong>Clan:</strong> Uzumaki Clan</div>
+            <div class="info-card"><strong>Rank:</strong> Genin</div>
+            <div class="info-card"><strong>Team:</strong> Team Konohamaru</div>
+        </div>
     </section>
 
     <section class="bio">
         <h2>Biography</h2>
-        <p>
-            Boruto Uzumaki is the son of Naruto Uzumaki, the Seventh Hokage, and Hinata Hyuga. Although he respects his
-            father,
-            Boruto initially resents him for prioritizing the village over their family. Over time, Boruto matures,
-            learns the true
-            meaning of being a shinobi, and strives to make his own path beyond his father's legacy.
-        </p>
+        <p>Boruto is the son of Naruto Uzumaki, the Seventh Hokage, and Hinata Hyuga. Initially struggling with his
+            father’s responsibilities, he matures into a capable ninja and learns to forge his own path, embracing
+            teamwork, loyalty, and courage.</p>
     </section>
 
     <section class="abilities">
         <h2>Abilities</h2>
-        <ul>
-            <li>Shadow Clone Technique</li>
-            <li>Rasengan (including Vanishing Rasengan)</li>
-            <li>Jōgan (Unique Dōjutsu)</li>
-            <li>Nature Transformation: Lightning & Wind Release</li>
-        </ul>
+        <div class="ability-list">
+            <div class="ability-card">
+                <h3>Shadow Clone Technique</h3>
+                <p>Creates multiple copies to overwhelm enemies or for training.</p>
+            </div>
+            <div class="ability-card">
+                <h3>Rasengan</h3>
+                <p>Spinning chakra sphere; includes Vanishing Rasengan for advanced combat.</p>
+            </div>
+            <div class="ability-card">
+                <h3>Jōgan</h3>
+                <p>A unique dōjutsu that detects chakra and dimensional portals.</p>
+            </div>
+            <div class="ability-card">
+                <h3>Nature Transformations</h3>
+                <p>Lightning & Wind Release, enhancing offensive capabilities.</p>
+            </div>
+        </div>
     </section>
 
     <div class="back-btn">
@@ -75,7 +75,7 @@
     </div>
 
     <footer>
-        <p>© 2025 Boruto Wiki. All rights reserved.</p>
+        <p>© 2025 Boruto Wiki | Fan Project Only</p>
     </footer>
 </body>
 
