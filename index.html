@@ -2,16 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boruto Wiki - Home</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
 
 <body>
-    <header>
-        <div class="logo">Boruto Wiki</div>
+    <header id="header">
+        <div class="logo">
+            <img src="/images/hand_sign.png" alt="Logo">
+            Boruto Wiki
+        </div>
         <nav>
             <a href="index.html" class="active">Home</a>
             <a href="#characters">Characters</a>
@@ -20,50 +23,59 @@
     </header>
 
     <section class="hero">
-        <img src="https://static.wikia.nocookie.net/naruto/images/6/6f/Boruto_Uzumaki.png" alt="Boruto Uzumaki" />
-        <div class="hero-text">
-            <h1>Welcome to the Boruto Wiki</h1>
-            <p>Discover everything about the world of Boruto: Next Generations — characters, abilities, and storylines!
-            </p>
+        <div class="hero-content">
+            <h1>Welcome to Boruto Wiki</h1>
+            <p>Explore the world of Boruto: Next Generations. Characters, abilities, and epic ninja stories all in one
+                place!</p>
+            <a href="#characters" class="btn">Explore Characters</a>
         </div>
+        <div class="hero-image">
+            <img src="images/boruto.jpg" alt="Boruto Uzumaki">
+        </div>
+
     </section>
 
     <section id="characters" class="characters">
         <h2>Featured Characters</h2>
         <div class="card-container">
             <div class="card">
-                <img src="https://static.wikia.nocookie.net/naruto/images/6/6f/Boruto_Uzumaki.png" alt="Boruto Uzumaki">
-                <h3>Boruto Uzumaki</h3>
-                <p>Son of the Seventh Hokage, determined to make his own ninja way.</p>
-                <a href="boruto.html" class="btn">View Page</a>
+                <img src="/images/boruto.jpg" alt="Boruto Uzumaki">
+                <div class="card-content">
+                    <h3>Boruto Uzumaki</h3>
+                    <p>Son of the Seventh Hokage. Determined to forge his own path as a ninja.</p>
+                    <a href="boruto.html" class="btn">View Page</a>
+                </div>
             </div>
             <div class="card">
-                <img src="https://static.wikia.nocookie.net/naruto/images/f/f2/Sarada_Uchiha.png" alt="Sarada Uchiha">
-                <h3>Sarada Uchiha</h3>
-                <p>A kunoichi of the Uchiha Clan with dreams to become Hokage.</p>
-                <a href="#" class="btn">Coming Soon</a>
+                <img src="/images/sarada.jpg" alt="Sarada Uchiha">
+                <div class="card-content">
+                    <h3>Sarada Uchiha</h3>
+                    <p>A talented kunoichi with aspirations to become Hokage.</p>
+                    <a href="#" class="btn disabled">Coming Soon</a>
+                </div>
             </div>
             <div class="card">
-                <img src="https://static.wikia.nocookie.net/naruto/images/1/12/Mitsuki.png" alt="Mitsuki">
-                <h3>Mitsuki</h3>
-                <p>An artificial human created by Orochimaru, Boruto’s loyal teammate.</p>
-                <a href="#" class="btn">Coming Soon</a>
+                <img src="/images/mitsuki.jpg" alt="Mitsuki">
+                <div class="card-content">
+                    <h3>Mitsuki</h3>
+                    <p>Mysterious synthetic human and loyal teammate of Boruto.</p>
+                    <a href="#" class="btn disabled">Coming Soon</a>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="about" class="about">
         <h2>About This Wiki</h2>
-        <p>
-            The Boruto Wiki is a fan-made project aiming to provide detailed information about the anime and manga
-            series
-            <strong>Boruto: Naruto Next Generations</strong>. This site is designed for fans who love to explore the
-            shinobi world.
-        </p>
+        <div class="about-content">
+            <p>The Boruto Wiki is a fan-made project dedicated to providing detailed information about Boruto: Naruto
+                Next Generations. Learn about characters, abilities, clans, and the epic ninja adventures in Konoha.</p>
+            <img src="/images/Konoha_Symbol.png" alt="Konoha Symbol">
+        </div>
     </section>
 
     <footer>
-        <p>© 2025 Boruto Wiki. All rights reserved. Fan project only.</p>
+        <p>© 2025 Boruto Wiki | Fan Project Only</p>
     </footer>
 </body>
 
